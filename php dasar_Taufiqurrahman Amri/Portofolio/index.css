@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f232e;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background-color: #1f232e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 25px;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.logo:hover{
+    color: #00abf0;
+}
+
+.navbar a {
+  font-weight: 500;
+  margin-left: 50px;
+  transition: 2s;
+  text-decoration: none;
+  color: #ededed;
+}
+
+.navbar a:hover {
+  color: #00abf0;
+}
+
+.home {
+  color: #ededed;
+}
+
+.content h1 {
+  margin-top: 220px;
+  margin-left: 150px;
+  font-size: 35px;
+}
+
+.content .rectangle{
+    width: 150px;
+    height: 10px;
+    background-color: #00abf0;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+
+
+
+.content h3 {
+  margin-left: 150px;
+  color: #00abf0;
+  font-size: 30px;
+}
+
+.content p {
+  margin-top: 15px;
+  margin-left: 150px;
+  font-size: 18px;
+}
+
+.content .btn {
+  margin-left: 150px;
+  margin-top: 10px;
+}
+
+.content .instagram {
+  margin-left: 20px;
+}
+
+.content a {
+  text-decoration: none;
+  color: #ededed;
+  transition: 1s;
+}
+
+/* .content a:hover{
+    color: #00abf0;
+} */
+
+
+.btn a {
+  display: inline-flex;
+  width: 150px;
+  height: 45px;
+  background-color: #00abf0;
+  border: 2px solid #00abf0;
+  border-radius: 10px;
+  font-size: 19px;
+  color: #252525;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+
+.btn a:hover{
+    background-color:#1f232e ;
+    color: #ededed;
+    border: 2px solid #ededed;
+}
+
+/* Achievement */
+
+.judul h1{
+    margin-top: 300px;
+    text-align: center;
+    color: #ededed;
+    font-size: 40px;
+    transition: 1s;
+}
+
+.judul h1:hover{
+    color: #ffbb00;
+}
+
+.container {
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+    background-color: #00abf0;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.container img{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.container .img2{
+    width: 400px;
+    height: 400px;
+}
+
+.konten .image-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.card {
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.konten h1 {
+    margin-top: 120px;
+    font-size: 35px;
+    color: #ededed;
+    text-align: center;
+  }
+
+.konten p{
+    text-align: justify;
+    margin-left: 650px;
+    margin-right: 150px;
+    margin-top: 50px;
+    color: #ededed;
+}
+
